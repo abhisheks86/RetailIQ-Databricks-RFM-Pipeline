@@ -199,39 +199,6 @@ Standalone tables (pre-aggregated — no joins needed):
 
 ---
 
-## 📂 Repository Structure
-
-```
-RetailIQ-Sales-Intelligence-Pipeline/
-│
-├── 📁 notebooks/
-│   └── Retail_ETL_Pipeline.ipynb      ← Full PySpark ETL notebook
-│
-├── 📁 sql/
-│   ├── retail_business_queries.sql    ← All 8 advanced SQL queries
-│   └── outputs/
-│       ├── query1_output.csv          ← Macro KPIs
-│       ├── query2_output.csv          ← Country Revenue
-│       ├── qurey3_output.csv          ← Monthly Trend
-│       ├── query4_output.csv          ← Top Products
-│       ├── query5_output.csv          ← Revenue % CTE
-│       ├── query6_output.csv          ← Running Total
-│       └── query7_output.csv          ← MoM Growth LAG
-│
-├── 📁 data/
-│   ├── cleaned_online_retail.csv      ← 392,693 clean rows
-│   └── sample_100rows.csv             ← Sample for preview
-│
-├── 📁 powerbi/
-│   └── RetailIQ_Dashboard.pbix        ← Power BI dashboard
-│
-├── 📁 screenshots/
-│   ├── page1_sql_intelligence.png
-│   └── page2_global_market_view.png
-│
-└── README.md
-```
-
 ## Tech Stack
 
 | Technology | Purpose |
